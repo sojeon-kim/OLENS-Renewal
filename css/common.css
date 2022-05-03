@@ -1,0 +1,11 @@
+.inner{
+    max-width: 1264px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}

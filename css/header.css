@@ -1,0 +1,162 @@
+/*
+notosans font weight
+Thin 100
+Light 300
+Regular 400
+Medium 500
+Bold 700
+Black 900
+*/
+
+/* 헤더 */
+header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    transition: 0.3s;
+}
+header:hover{
+    background: rgba(255, 255, 255, 1);
+}
+/* 헤더 스크롤 */
+header.scroll{
+    position: fixed;
+    background: #fff;
+    height: 80px;
+    z-index: 9;
+    box-shadow: 0px 1px 20px 0 #80808061;
+}
+header.scroll nav > ul > li{
+    padding: 0 25px 19px 25px;
+}
+header.scroll nav > ul > li > a{
+    color: #050505;
+}
+header.scroll #sub_bg{
+    background: rgba(255, 255, 255, 0.9);
+}
+/* end */
+header .inner{
+    height: 100%;
+    padding: 32px 0;
+    position: relative;
+}
+h1{
+    display: inline-block;
+    width: auto;
+}
+h1 a{
+    display: block;
+}
+nav{
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    top: 41px;
+    left: 321px;
+    left: 17vw;
+}
+nav > ul > li{
+    float: left;
+    padding: 0 25px 39px 25px;
+    position: relative;
+}
+nav > ul > li:last-child{
+    margin-right: 0;
+}
+header:hover nav > ul > li > a{
+    color: #050505;
+}
+nav > ul > li > a{
+    color: #fff;
+}
+header:hover nav > ul > li:hover > a{
+    color: #fb7eb4;
+}
+#top_menu{
+    float: right;
+}
+#top_menu img{
+    margin-right: 28px;
+}
+#top_menu a:last-child img{
+    margin-right: 0;
+}
+#ham{
+    display: none;
+}
+#ham span{
+    display: block;
+    color: transparent;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background: #fff;
+}
+#ham span:nth-child(2){
+    margin: 6px 0;
+}
+/* sub_menu */
+.sub_menu{
+    z-index: 9;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: none;
+    height: 400px;
+}
+.sub_menu li{
+    margin-top: 27px;
+    font-weight: 300;
+}
+.sub_menu li:hover a{
+    color: #fb7eb4;
+}
+#sub_bg{
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 400px;
+    top: 100%;
+    position: absolute;
+    display: none;
+}
+#main_bg img{
+    width: 100%;
+}
+/********************** 태블릿 768px **********************/
+@media screen and (max-width:1305px){
+    h1 img{
+        width: 90%;
+        transition: all 0.3s;
+    }
+    header.scroll h1 img{
+        width: 80%;
+    }
+    nav, #top_menu{
+        display: none;
+    }
+    #ham{
+        display: block;
+        float: right;
+        clear: both;
+        margin-top: 8px;
+    }
+    header.scroll #ham{
+        margin-top: 0;
+    }
+    header.scroll #ham span{
+        background: #fb7eb4;
+    }
+}
+@media screen and (max-width:768px){
+    
+}
+/********************** 모바일 390px **********************/
+/* @media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:768px){
+    
+} */

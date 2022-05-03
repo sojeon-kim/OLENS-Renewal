@@ -1,0 +1,55 @@
+footer{
+    background: #050505;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2.2;
+}
+footer ul{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+
+}
+footer li{
+    display: inline-block;
+    margin: 5px 30px;
+}
+footer ul a{
+    color: #Fff;
+}
+footer div.inner{
+    padding: 30px 0;
+    position: relative;
+}
+footer address{
+    display: block;
+    float: left;
+    width: 50%;
+}
+footer span{
+    font-size: 22px;
+    font-weight: 500;
+}
+footer .icon{
+    margin-top: 45px;    
+} 
+footer .icon > a{
+    color: transparent;
+    display:block;
+    float: left;
+}
+footer .icon > a:nth-last-child(4){
+    background: url(../img/img_footer/ico-insta.png) no-repeat 0 center;
+    background-size: auto 28px;
+}
+footer .icon > a:nth-last-child(3){
+    background: url(../img/img_footer/ico-ytb.png) no-repeat 0 center;
+    background-size: auto 24px;
+}
+footer .icon > a:nth-last-child(2){
+    background: url(../img/img_footer/ico-blog.png) no-repeat 0 center;
+    background-size: auto 29px;
+}
+footer .icon > a:nth-last-child(1){
+    background: url(../img/img_footer/ico-fb.png) no-repeat 0 center;
+    background-size: auto 29px;
+}
