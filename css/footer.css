@@ -53,3 +53,31 @@ footer .icon > a:nth-last-child(1){
     background: url(../img/img_footer/ico-fb.png) no-repeat 0 center;
     background-size: auto 29px;
 }
+@media screen and (max-width: 768px){
+    /* 푸터 */
+    footer li {
+        margin: 5px 18px;
+    }
+}
+@media screen and (max-width:560px){
+    footer{
+        font-size: 15px;
+    }
+    footer li{
+        margin: 5px 8px;
+        font-size: 13px;
+    }
+    footer address{
+        float: none;
+        width: 100%;
+    }
+    footer address:nth-child(1){
+        margin-bottom: 30px;
+    }
+    footer span{
+        font-size: 18px;
+    }
+    footer .icon{
+        margin-top: 30px;
+    }
+}

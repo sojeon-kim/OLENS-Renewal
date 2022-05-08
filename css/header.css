@@ -143,6 +143,9 @@ header:hover nav > ul > li:hover > a{
         clear: both;
         margin-top: 8px;
     }
+    header:hover #ham span{
+        background: #fb7eb4;
+    }
     header.scroll #ham{
         margin-top: 0;
     }
@@ -151,12 +154,46 @@ header:hover nav > ul > li:hover > a{
     }
 }
 @media screen and (max-width:768px){
-    
+    header{
+        height: 80px;
+    }
+    header.scroll{
+        height: 60px;
+    }
+    header .inner{
+        padding: 20px 0;
+    }
+    h1 img{
+        width: 70%;
+    }
+    header.scroll h1 img{
+        width: 60%;
+    }
 }
 /********************** 모바일 390px **********************/
-/* @media screen and (max-width:1200px){
-
+@media screen and (max-width:560px){
+    header{
+        height: 50px;
+    }
+    header.scroll{
+        height: 50px;
+    }
+    header .inner{
+        padding: 14px 0;
+    }
+    h1 img{
+        width: 70%;
+    }
+    header.scroll h1 img{
+        width: 60%;
+    }
+    #ham{
+        margin-top: 3px;
+    }
+    #ham span{
+        width: 25px;
+    }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:390px){
     
-} */
+}
