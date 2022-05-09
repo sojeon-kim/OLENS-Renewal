@@ -151,6 +151,7 @@ header:hover nav > ul > li:hover > a{
     }
     header.scroll #ham span{
         background: #fb7eb4;
+        font-size: 0;
     }
 }
 @media screen and (max-width:768px){

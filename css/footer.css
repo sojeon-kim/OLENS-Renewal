@@ -24,6 +24,7 @@ footer address{
     display: block;
     float: left;
     width: 45%;
+    margin-right: 20px;
 }
 footer span{
     font-size: 22px;
